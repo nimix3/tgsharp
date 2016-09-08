@@ -6,6 +6,7 @@ This is library that handles telegram api and protocol in C# environment.
 Authors:
 
 Amin1SoftCo (Amin Rajabi Zade)
+
 NIMIX3 (Nima Akhlaghi)
 
 
