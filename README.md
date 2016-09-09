@@ -179,6 +179,13 @@ Download GitHub Repository
      tgsharp.wait
      tgsharp._Last
      
+### Term of use
+- Please Accept all of these rules before using this source, or if you declined with these please close this repository.
+
+1. Don't use this library to make dangerous applications and don't use for hacking or scamming purpose
+2. Don't sell this library to other peoples, and if you want to bring this library you should send this repository link.
+3. Don't use this library to face making though! and to inflate with pride!
+4. Help peoples who search for such library as you like! and tell them this repository link.
 
 
 ### Contacts 
