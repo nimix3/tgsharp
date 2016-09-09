@@ -1,6 +1,6 @@
 # tgsharp
 
-This is full implemented library that handles telegram api and protocol in C# environment.
+This is full implemented library that handles telegram api and protocol in C# environment for the first time.
 
 
 ### Authors:
