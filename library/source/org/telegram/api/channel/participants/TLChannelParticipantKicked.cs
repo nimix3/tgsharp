@@ -1,0 +1,76 @@
+﻿namespace org.telegram.api.channel.participants
+{
+    using IKVM.Attributes;
+    using java.io;
+    using org.telegram.tl;
+    using System;
+    using System.Runtime.CompilerServices;
+    using System.Runtime.Serialization;
+    using System.Security.Permissions;
+
+    [Serializable]
+    public class TLChannelParticipantKicked : TLAbsChannelParticipant
+    {
+        public const int CLASS_ID = -1933187430;
+        private int date;
+        private int kickedBy;
+        private int userId;
+
+        [MethodImpl(MethodImplOptions.NoInlining), LineNumberTable(new byte[] { 0x9f, 0xa6, 0x68 })]
+        public TLChannelParticipantKicked()
+        {
+        }
+
+        [HideFromJava, SecurityPermission(SecurityAction.Demand, SerializationFormatter=true)]
+        protected TLChannelParticipantKicked(SerializationInfo info1, StreamingContext context1) : base(info1, context1)
+        {
+        }
+
+        [MethodImpl(MethodImplOptions.NoInlining), Throws(new string[] { "java.io.IOException" }), LineNumberTable(new byte[] { 15, 0x6c, 0x6c, 0x6c })]
+        public override void deserializeBody(InputStream stream, TLContext context)
+        {
+            this.userId = StreamingUtils.readInt(stream);
+            this.kickedBy = StreamingUtils.readInt(stream);
+            this.date = StreamingUtils.readInt(stream);
+        }
+
+        public override int getClassId() => 
+            -1933187430;
+
+        public virtual int getDate() => 
+            this.date;
+
+        public virtual int getKickedBy() => 
+            this.kickedBy;
+
+        public virtual int getUserId() => 
+            this.userId;
+
+        [MethodImpl(MethodImplOptions.NoInlining), Throws(new string[] { "java.io.IOException" }), LineNumberTable(new byte[] { 8, 0x6c, 0x6c, 110 })]
+        public override void serializeBody(OutputStream stream)
+        {
+            StreamingUtils.writeInt(this.userId, stream);
+            StreamingUtils.writeInt(this.kickedBy, stream);
+            StreamingUtils.writeInt(this.date, stream);
+        }
+
+        public virtual void setDate(int date)
+        {
+            this.date = date;
+        }
+
+        public virtual void setKickedBy(int kickedBy)
+        {
+            this.kickedBy = kickedBy;
+        }
+
+        public virtual void setUserId(int userId)
+        {
+            this.userId = userId;
+        }
+
+        public override string toString() => 
+            "channel.participants.TLChannelParticipantKicked#8cc5e69a";
+    }
+}
+
