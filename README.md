@@ -14,7 +14,7 @@ This is full implemented library that handles telegram api and protocol in C# en
 
 ### Current versions:
 
-- schema: Layer 53
+- schema: Layer 66
 
 
 
