@@ -73,7 +73,7 @@ Download GitHub Repository
      tgsharp.sent_result
      tgsharp.systemVersion
      tgsharp.tzid
-
+     ...
 
 
      
@@ -178,6 +178,7 @@ Download GitHub Repository
      tgsharp.ViewChannel
      tgsharp.wait
      tgsharp._Last
+     ...
      
 ### Term of use
 - Please Accept all of these rules before using this source, or if you declined with these please close this repository.
