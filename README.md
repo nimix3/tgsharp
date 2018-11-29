@@ -1,6 +1,6 @@
 # tgsharp
 [![Telegram group](https://img.shields.io/badge/TELEGRAM-GROUP-green.svg)](https://t.me/joinchat/BjokYUiYV6gK9FCUNiB7lw)
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/nimix3/Venus/blob/master/LICENSE)
+[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/nimix3/tgsharp/blob/master/LICENSE)
 
 This is full implemented library that handles telegram api and protocol in C# environment for the first time.
 
